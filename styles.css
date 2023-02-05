@@ -1,0 +1,110 @@
+* {                             /*tudo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+div {                           /*caixa
+    background-color: black;    /*troca a cor do fundo*/
+    width: 430px;               /*Largura*/
+
+}
+
+
+    body {
+        background-image: url("https://source.unsplash.com/1600x900/?landscape");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+
+}
+
+    .cidade {
+        color: white;
+        margin-top: 15px;
+}
+
+    .tempo {
+        color: white;
+        margin-top: 15px;
+        font-size: 30px;
+}
+    .sensacao {
+        color: white;
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+    .descricao {
+        color: white;
+        font-size: 15px;
+        text-transform: capitalize;
+        margin-left: 10px;
+}
+
+    .umidade1 {
+        color: white; 
+        margin-top: 15px;
+        font-size: 15px;
+        margin-left: 10px;
+}
+    .umidade2 {
+        width: 35px;
+    }
+
+    .umidade3 {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    input {
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 24px;
+        font-size: 20px;
+        background-color: #7c7c7c2b;
+        color: white;
+        width: calc(100% - 100px);
+
+}
+
+.caixa-maior {
+    background-color: black;
+    width: 90%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+    .caixa-menor {
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+    }
+
+    .lupa {
+        height: 20px;
+}
+
+    button {
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #7c7c7c2b;
+}
+
+    button:hover {
+        background-color: #7c7c7c6b;
+}
+
+    .botao3 {
+        margin-left: 300px;
+        font-size: 15px;
+}
